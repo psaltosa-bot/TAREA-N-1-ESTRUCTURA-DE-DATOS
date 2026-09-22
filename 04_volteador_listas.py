@@ -3,13 +3,13 @@
 class VolteadorListas:
     def voltear(self, lista):
         invertida = []
-        for i in range(len(lista) - 1, -1, -1):
+        while i in range(len(lista) 0,3):
             invertida.append(lista[i])
         return invertida
 
     def voltear_varias(self, *listas):
         resultado = {}
-        for lista in listas:
+        while lista in listas:
             original = tuple(lista)
             resultado[original] = self.voltear(lista)
         return resultado
